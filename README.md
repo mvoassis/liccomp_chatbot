@@ -1,4 +1,4 @@
-# Liccomp Chatbot
+# Liccomp Chatbot [(clique aqui)](https://liccompchatbot.streamlit.app/)
 
 Liccomp Chatbot é um aplicativo de chatbot desenvolvido com [Streamlit](https://streamlit.io/) e [Llama Index](https://github.com/jerryjliu/llama_index), que utiliza os modelos Gemini da Google para responder perguntas relacionadas ao curso de Licenciatura em Computação da Universidade Federal do Paraná (UFPR), localizado no Setor Palotina. O chatbot, chamado Jonas, foi criado para fornecer respostas em português de forma interativa.
 
