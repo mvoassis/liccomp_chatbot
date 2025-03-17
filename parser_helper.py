@@ -2,9 +2,9 @@ from llama_parse import LlamaParse
 from llama_index.core import SimpleDirectoryReader
 
 
-def le_arquivo(arquivo):
+def le_arquivo(KEY):
     parser = LlamaParse(
-        api_key="llx-HD5nnuet0K0Ssmmj8Wwbx4P7G77Tkw09VO6Jsmx55lt2nMmt",
+        api_key=KEY,
         # can also be set in your env as LLAMA_CLOUD_API_KEY
         result_type="markdown",  # "markdown" and "text" are available
         num_workers=4,  # if multiple files passed, split in `num_workers` API calls
